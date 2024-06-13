@@ -1,0 +1,28 @@
+    body {
+        font-family:sans-serif;
+        border: 1px solid 
+        
+#d0d0d5;
+    }   
+    .title-balance {
+        
+        margin-left :20px
+
+        }
+        
+        table one {
+          background-color: #0a0a23;
+          margin-left: auto;
+          text-align: right;
+          font-weight: bold;
+          width: 4.5rem;
+        }
+        .form-year {
+            color: #fffff1;
+            margin: auto;
+            background-color: #0a0a23;
+            margin-left: auto;
+            text-align: right;
+            font-weight: bold;
+            width: 4.5rem;
+        }

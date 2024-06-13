@@ -1,0 +1,40 @@
+body {
+    background-color: #1b1b32;
+}
+h1 {
+    color: white;
+    text-align: center;
+
+}
+div {
+    color: white;
+    text-align: center;
+}
+.input-login {
+    background-color: #1b1b32;
+    color: white;
+    width: 405px;
+    height: 20px;
+   
+}
+
+Label {
+    color: #fff;
+    text-align: center;
+    cursor: default;
+    
+}
+.input-pass{
+    color:white
+}
+
+textarea {
+    background-color: #1b1b32;
+}
+.box {
+    background: #3b3b4f;
+    width: 301px;
+    height: 35px;
+    margin-left: 295px;
+  
+}
