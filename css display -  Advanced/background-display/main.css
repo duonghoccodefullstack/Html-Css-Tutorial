@@ -1,0 +1,10 @@
+.background1 {
+    width: 1000px;
+    height: 500px;
+    padding: 20px;
+   background-image:
+   url(/background-display/1dpmw.gif),url(/background-display/premium_photo-1672944876342-4090164e1c04.avif);
+   background-repeat: no-repeat,repeat;
+   background-position: right bottom, left top;
+    
+}
