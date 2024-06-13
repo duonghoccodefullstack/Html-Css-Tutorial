@@ -1,0 +1,13 @@
+Sử dụng thuộc tính HTML styleđể tạo kiểu nội tuyến
+Sử dụng phần tử HTML <style>để xác định CSS nội bộ
+Sử dụng phần tử HTML <link>để chỉ tệp CSS bên ngoài
+Sử dụng phần tử HTML <head>để lưu trữ các phần tử <style> và <link>
+Sử dụng thuộc tính CSS colorcho màu văn bản
+Sử dụng thuộc tính CSS font-familycho phông chữ văn bản
+Sử dụng thuộc tính CSS font-sizecho kích thước văn bản
+Sử dụng thuộc tính CSS bordercho đường viền
+Sử dụng thuộc tính CSS paddingcho không gian bên trong đường viền
+Sử dụng thuộc tính CSS margincho không gian bên ngoài đường viền.
+Sử dụng thuộc tính HTML blockquote dể trích từ văn bản từ html
+Sử dụng thuộc tính HTML bdo để quay ngược lại văn bản
+Sử dụng thuộc tính HTML text-decoration:none để trang trí văn bản

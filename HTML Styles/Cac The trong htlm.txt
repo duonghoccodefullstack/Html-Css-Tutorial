@@ -1,0 +1,79 @@
+ <h1>
+         Thẻ tiêu đề thông dụng
+
+</h1>
+
+(tương tự h1,2,3,4)
+<p>   (p style="color:red;" # màu của chữ bất kì)
+
+<p>   (title="I'm a tooltip" # Đoạn chú 
+
+        Thẻ văn bản   (kết hợp với <br>)
+
+</p>
+
+
+<a href = " Một đường link " </a>
+
+
+Tất cả các phần tử HTML có thể có các thuộc tính
+
+Thuộc hreftính <a>chỉ định URL của trang mà liên kết chuyển đến
+
+Thuộc srctính <img>chỉ định đường dẫn đến hình ảnh sẽ được hiển thị
+
+Thuộc tính width và cung cấp thông tin kích thước cho hình ảnh height<img>
+
+Thuộc alt tính <img>cung cấp văn bản thay thế cho hình ảnh
+
+Thuộc styletính được sử dụng để thêm kiểu cho một phần tử, chẳng 
+hạn như màu sắc, phông chữ, kích thước, v.v.
+
+Thuộc langtính của <html>thẻ khai báo ngôn ngữ của trang Web
+
+Thuộc titletính xác định một số thông tin bổ sung về một phần tử
+
+
+Background Color:
+    <body>
+
+    <h1 style="background-color:powderblue;">This is a heading</h1>
+    <p style="background-color:tomato;">This is a paragraph.</p>
+
+    </body>
+
+Text Color:
+    <h1 style="color:blue;">This is a heading</h1>
+    <p style="color:red;">This is a paragraph.</p>
+Text Alignment : căn lề 
+    text-align: center;
+
+
+Chapter Summary
+Use the style attribute for styling HTML elements
+
+Use background-color for background colo: màu 
+
+Use color for text colors: màu văn bản 
+
+Use font-family for text fonts: phông chữ đẹp
+
+Use font-size for text sizes: kích cỡ chữ
+
+Use text-align for text alignment: căn lề chữ
+
+
+HTML Formatting Elements : Các phần tử định dạng HTML
+
+Các phần tử định dạng được thiết kế để hiển thị các loại văn bản đặc biệt:
+
+<b>- Chữ in đậm
+<strong>- Văn bản quan trọng
+<i>- Chữ nghiêng
+<em>- Đoạn văn bản được nhấn mạnh
+<mark>- Đánh dấu văn bản
+<small>- Văn bản nhỏ hơn
+<del>- Đã xóa văn bản
+<ins>- Đã chèn văn bản
+<sub>- Văn bản đăng ký
+<sup>- Văn bản siêu ký tự

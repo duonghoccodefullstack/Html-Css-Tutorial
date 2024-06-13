@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td {
+            border: 2px solid black;
+            width: 100%;
+        }
+        tr:hover {background-color: antiquewhite;}
+    </style>
+</head>
+<body>
+    <h1>Cell that spans two rows</h1>
+    <p>To make a cell span more than one row, use the rowspan attribute.</p>
+    <table>
+        <tr>
+            <th>
+                name 
+                
+            </th>
+            <td>jill</d>
+        </tr>
+        <tr>
+            <th rowspan="2">Phone</th>
+            <td>555-1234</td>
+            <td>555-8745</td>
+        </tr>
+    </table>
+    <hr>
+    <table >
+        <colgroup>
+        <col span="2 style="background-color:#D6EEEE></colgroup>
+        <tr>
+            <th>mon</th>
+            <th>tue</th>
+            <th>wed</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr></tr>
+    </table>
+</body>
+</html>

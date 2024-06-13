@@ -1,0 +1,93 @@
+div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: aquamarine;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+a:hover {
+    background-color: yellow;
+}
+:active {
+    background-color: aqua;
+}
+a:link {
+    background-color: pink;
+}
+a.ex1:hover, a.ex1:active{
+    background-color: aqua;
+    border: 2px soild black;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: wheat;
+padding: 10px 20px;
+a:link
+ 
+
+}
+li.ex1 {
+   
+    list-style-position: outside;
+    
+}
+li.ex2 {
+  
+    list-style-position: inside;
+}
+.ex3 {
+    list-style-type: none;
+    padding: auto;
+    margin: auto;
+}
+ul.ex5 {
+list-style: square inside url("sqpurple.gif");
+}
+ol {
+    background-color: #ff9999;
+    padding:  20px;
+}
+li.ex6 {
+    background-color: #ffe5e5;
+   margin-left: 35px;
+   color:darkred;
+}
+div.boxed1 {
+   max-width: 500px ;
+    margin: 30px;
+    border: 1px solid green;
+    position: relative;
+    height: 300px;
+
+}
+div.boxed2 {
+    position: absolute;
+    width: 248px;
+    height: 154px;
+    top: 1020px;
+    right: px;
+}
+li.sticky {
+   
+    position: sticky; 
+    top:0;
+    border: 1px solid black;
+    border-radius: 2px ;
+    position: -webkit-sticky;
+    padding: 5px;
+
+}
+div.sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    border: 1px solid black;
+    border-radius: 2px ;
+    text-align:center;
+    top:0;
+    max-width: 500px;
+    background-color: #ff9999;
+}
