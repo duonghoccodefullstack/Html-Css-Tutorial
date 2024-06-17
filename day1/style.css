@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* background-color: rgb(54, 72, 54); */
+    z-index: 2;
+    background-image: linear-gradient(to right, #4daf54, #3d8880);
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.product_card {
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin: 100px auto;
+    padding: 10px ;
+    z-index: 10;
+    position: relative;
+    border-radius: 20px;
+}
+.icon_product{
+    /* width: 390px; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between  ;
+    
+}
+
+.icon_cart {
+   cursor: pointer;
+}
+img  {
+    translate:0px 0px;
+    rotate: calc(45deg);
+    object-fit: cover;
+	object-position: center;
+}
+.img_nike_cart {
+    margin-top: 40px;
+    height: 200px;
+    width: 400px;
+    transition: 1s;
+}
+.title_text_cart {
+    text-align: center;
+    /* z-index: 100; */
+    transition: 0.5s
+}
+
+.option_cart {
+   /* transform: translate(0,500px); */
+    z-index: 1;
+    /* display: none; */
+    opacity: 0;
+    margin-top: 200px;
+}
+
+.product_card:hover .img_nike_cart{
+    /* transform: rotate(0,-100px); */
+    margin: 0;
+    transform: translateY(-90px) rotate(-20deg);
+    transition: 1500ms;
+}
+.product_card:hover .title_text_cart {
+    translate: -90px -50px;
+    transition: 2s;
+}
+.price_cart {
+    font-size: 26px;
+    font-weight: 600;
+    /* transition: 0.5s; */
+    margin-top: 10px;
+    transition: 1s;
+}
+.product_card:hover .price_cart {
+    translate: -70px 0px;
+    transition: 2s;
+}
+.option_cart {
+    padding-left: 10px;
+    font-size: 20px;
+    transition: 1s;
+}
+.product_card:hover .option_cart {
+    opacity: 1;
+    margin-top: 0;
+    transition: 2s;
+}
+.cart_size {
+    display: flex   ;
+}
+.cart_color {
+    margin-top: 10px;
+    display: flex   ;
+}
+.cart_color p    {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    
+    background-color: black ;
+    
+}
+.cart_size span {
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+} 
+input[type = "button"] {
+    background-color: green;
+    font-size: 20px;
+    padding: 10px 20px; 
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 7px;
+	font-weight: 600;
+	transition: 0.25s;
+}
+input[type = "button"]:hover {
+    transform: scale(0.9);
+}
+
